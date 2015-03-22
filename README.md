@@ -65,6 +65,8 @@ end
 ActionView::Base.default_form_builder = CustomFormBuilder
 ```
 
+Then restart the Rails server.
+
 ## Usage
 
 In View call the `picker: true` and call datetimepicker(the jQuery methods)
