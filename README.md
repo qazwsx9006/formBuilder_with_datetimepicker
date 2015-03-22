@@ -77,6 +77,7 @@ In View call the `picker: true` and call datetimepicker(the jQuery methods)
 	<%= f.datetime_select :published_at, picker: true %>
     <%= f.date_select :published_date, picker: true %>
   ...
+<% end %>
 
 <script type="text/javascript">
   $(function(){
